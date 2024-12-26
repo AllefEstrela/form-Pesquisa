@@ -85,14 +85,14 @@ button[type="submit"]:hover {
 }
 
 .option-group {
-    display: block;
+    display: flex;
     flex-wrap: wrap;
     gap: 1rem;
     justify-content: flex-start;
 }
 
 .option-group label {
-    display: block;
+    display: flex;
     align-items: center;
     gap: 0.5rem; /* espaço entre o botão e o texto */
     cursor: pointer;
