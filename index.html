@@ -1,106 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>freecodecamp search form</title>
+  <title>formulário de pesquisa freecodecamp</title>
   <link rel="stylesheet" href="styles.css">
 </head>
   <body>
     <div class="container"> 
       <header class="header"> 
-        <h1 id="title" class="text-center">Freecodecamp - search form</h1>
-        <p id="description" class="description text-center">Contribute! Your opinion and ideas help us evolve.</p>
+        <h1 id="title" class="text-center">Formulário de Pesquisa - Freecodecamp</h1>
+        <p id="description" class="description text-center">Contribua! Sua opinião e ideias nos ajudam a evoluir.</p>
       </header>
       <form id="survey-form" method="post" action='https://register-demo.freecodecamp.org'>
         <div class="form-group">
-          <label id="name-label" for="name">Name</label>
-          <input type="text" name="name" id="name" class="form-control" placeholder="Enter your full name" required>
+          <label id="name-label" for="name">Nome</label>
+          <input type="text" name="name" id="name" class="form-control" placeholder="Digite seu nome completo" required>
         </div>
         <div class="form-group">
           <label id="email-label" for="email">Email</label>
-          <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email" required>
+          <input type="email" name="email" id="email" class="form-control" placeholder="Insira seu e-mail" required>
         </div>
         <div class="form-group">
           <label id="number-label" for="number">Age</label>
-          <input type="number" name="age" id="number" min="10" max="100" class="form-control" placeholder="Age">
+          <input type="number" name="age" id="number" min="10" max="100" class="form-control" placeholder="Idade">
         </div>
         <div class="form-group">
-          <p>What is your current occupation?</p>
+          <p>Qual é sua ocupação atual?</p>
           <select id="dropdown" name="occupation" class="form-control" required>
-            <option disabled selected value>Select current occupation</option>
-            <option value="job">Full Time Job</option>
-            <option value="apprentice">Young Apprentice</option> 
+            <option disabled selected value>Selecione a ocupação atual</option>
+            <option value="job">Emprego em tempo integral</option>
+            <option value="apprentice">Jovem Aprendiz</option> 
             <option value="freelancer">Freelancer</option>
-            <option value="student">Student</option>
-            <option value="preferNo">Prefer not to say</option>
-            <option value="other">Other</option>
+            <option value="student">Estudante</option>
+            <option value="preferNo">Prefiro não dizer</option>
+            <option value="other">Outro</option>
           </select>
         </div>
         <div class="form-group">
-          <p>Are you satisfied with the platform?</p>
+          <p>Você está satisfeito com a plataforma?</p>
           <label>
             <input name="satisfied" value="very" type="radio" class="input-radio" checked>
-            Very
+            Muito
           </label>
           <label>
             <input name="satisfied" value="more-or-less" type="radio" class="input-radio">
-            More or less
+            Mais ou menos
           </label>
           <label>
             <input name="satisfied" value="no-lot" type="radio" class="input-radio">
-            Not a lot
+            Não muito
           </label>
         </div>
         <div class="form-group">
-          <p>What's your favorite freeCodeCamp feature?</p>
+          <p>Qual é seu recurso favorito do freeCodeCamp?</p>
           <select id="most-like" name="mostlike" class="form-control" required>
-            <option disabled selected value>Select an option</option>
-            <option value="simplified-coding">Simplified coding</option>
-            <option value="certificates">Certificates</option>
+            <option disabled selected value>Selecione uma opção</option>
+            <option value="simplified-coding">Codificação simplificada</option>
+            <option value="certificates">Certificados</option>
             <option value="portfolio">Portfolio</option>
-            <option value="projects">Projects</option>
-            <option value="challenges">Challenges</option>
-            <option value="other">Other</option>
+            <option value="projects">Projetos</option>
+            <option value="challenges">Desafios</option>
+            <option value="other">Outro</option>
           </select>
         </div>
         <div class="form-group">
-          <p>Check out the options that deserve improvements:</p>
+          <p>Confira as opções que merecem melhorias:</p>
           <label>
             <input name="check" value="front-end-projects" type="checkbox" class="input-checkbox">
-            Front-end Projects
+            Projetos Front-end 
           </label>
           <label>
             <input name="check" value="back-end-projects" type="checkbox" class="input-checkbox">
-            Back-end Projects
+            Projetos Back-end 
           </label>
           <label>
             <input name="check" value="data-visualization" type="checkbox" class="input-checkbox">
-            Data Visualization
+            Visualização de dados
           </label>
           <label>
             <input name="check" value="challenges" type="checkbox" class="input-checkbox">
-            Challenges
+            Desafios
           </label>
           <label>
             <input name="check" value="videos" type="checkbox" class="input-checkbox">
-            Videos
+            Vídeos
           </label>
           <label>
             <input name="check" value="forum" type="checkbox" class="input-checkbox">
-            Forum
+            Fórum
           </label>
           <label>
             <input name="check" value="additional-courses" type="checkbox" class="input-checkbox">
-            Additional Courses
+            Cursos Adicionais
           </label>
         </div>
         <div class="form-group">
-          <p>Any comments or suggestions?</p>
-          <textarea id="comments" class="input-textarea" name="comment" placeholder="In my opinion..."></textarea>
+          <p>Algum comentário ou sugestão?</p>
+          <textarea id="comments" class="input-textarea" name="comment" placeholder="Em minha opinião..."></textarea>
         </div>
         <div class="form-group">
-          <button type="submit" id="submit" class="submit-button"> Submit </button>
+          <button type="submit" id="submit" class="submit-button"> Enviar FeedBack </button>
         </div>
       </form>
     </div>
